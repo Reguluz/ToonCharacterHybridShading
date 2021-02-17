@@ -1,4 +1,4 @@
-﻿Shader "14/UE4PBRSpecular"
+﻿Shader "14/CustomPBR"
 {
     Properties
     {
@@ -125,7 +125,7 @@
             #pragma fragment PBRSpecularFragment
 
             // #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
-            #include "UE4PBRSpecularForwardPass.hlsl"
+            #include "CustomPBRForwardPass.hlsl"
             ENDHLSL
         }
         
